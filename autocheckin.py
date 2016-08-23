@@ -4,12 +4,12 @@ import requests
 import re
 import time
 ####
-username = "~~~~~~"
-password =  "~~~~~~"
+username = "abcyuxue123@hotmail.com"
+password =  "9219b7e6c8dc39b03c097acdaad33fa8"
 blabla = 'Little hand one shake, big rice arrive hand.' #your blabla here
 ###
 
-
+      
 def login():
   #get cookie
   login_data = {'username': username, 
