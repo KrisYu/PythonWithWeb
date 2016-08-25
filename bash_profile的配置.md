@@ -55,3 +55,8 @@ export PATH
 
 依旧在，根据网上的解决方案没有解决
 
+
+我的天啊，` echo $PATH`
+ 
+ anaconda居然还在
+

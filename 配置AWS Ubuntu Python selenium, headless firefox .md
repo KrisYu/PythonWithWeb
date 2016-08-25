@@ -21,6 +21,8 @@ sudo apt-get install firefox xvfb
 pip install pyvirtualdisplay
 ```
 
+
+
 ### 测试
 
 ```
@@ -44,6 +46,14 @@ print driver.title
 
 
 <https://christopher.su/2015/selenium-chromedriver-ubuntu/>
+
+
+### 本地配置
+
+本地配置其实没什么差，但是发现 firefox 48 和 selenium 不兼容，于是更改到了chrome.
+
+值得注意的是如果是 OS X EI Captioan想用headless chrome的话，需要先安装XQuartz. 至此，两个平台暂且配置完毕，所有的代码两个平台都可以同样跑。
+
 
 
 
