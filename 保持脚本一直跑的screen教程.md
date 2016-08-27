@@ -52,3 +52,6 @@ screen -r 4486
 五分钟后，再看一下：
 
 screen还在
+
+
+啊。晚上看的时候居然报错`Timed out receiving message from renderer`,看来要么cronb，要么定期手动来跑
