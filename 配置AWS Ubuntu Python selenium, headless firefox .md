@@ -21,6 +21,11 @@ sudo apt-get install firefox xvfb
 pip install pyvirtualdisplay
 ```
 
+别忘了设置
+
+```
+export DISPLAY=:99
+```
 
 
 ### 测试
@@ -31,7 +36,7 @@ from selenium import webdriver
 
 display = Display(visible=0, size=(800, 600))
 display.start()
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.get('https://google.com')
 print driver.title
 ```

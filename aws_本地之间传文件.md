@@ -16,6 +16,14 @@ scp -i ~/.ssh/AWSKey.pem ~/Pythonic/dps.py ubuntu@54.226.105.14:/home/ubuntu/pyt
 
 断开SSH连接
 
+
+
+移动文件位置
+
+```
+mv  -v ~/Downloads/* ~/Videos/
+```
+
 速度稍慢
 ```
 ~.
@@ -50,6 +58,10 @@ tobe - fix 貌似我代码的原因，用的第三方的库我可能没搞明白
 ```
 ps aux | less
 ```
+
+
+
+
 
 
 

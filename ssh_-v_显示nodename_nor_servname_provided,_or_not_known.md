@@ -42,3 +42,20 @@ ssh -i ~/.ssh/AWSKey.pem ubuntu@54.226.105.14 -p 22
 ```
 
 原因有待更仔细的研究，记录以防止下一次继续的产生
+
+
+```
+ssh -i ~/.ssh/AWSKey.pem ubuntu@ec2-54-226-105-14.compute-1.amazonaws.com -p 22
+
+ssh ubuntu@54.226.105.14 -i ~/.ssh/awskey.pem
+```
+
+非常有待研究，怀疑学校的网络会堵塞ssh
+
+
+怀疑是因为security group造成的ssh经常报错
+
+
+todo：
+
+- 研究家中ip是否更改等状况，针对再处理
